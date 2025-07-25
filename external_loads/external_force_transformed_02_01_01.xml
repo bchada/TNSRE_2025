@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSimDocument Version="30000">
+  <ExternalLoads name="handle_el">
+    <datafile>external_force_transformed_02_01_01.sto</datafile>
+    <external_loads_model_kinematics_file></external_loads_model_kinematics_file>
+    <lowpass_cutoff_frequency_for_load_kinematics>-1.0</lowpass_cutoff_frequency_for_load_kinematics>
+    <ExternalForce name="handle_rf">
+      <applied_to_body>hand_r</applied_to_body>
+      <force_expressed_in>body</force_expressed_in>
+      <point_expressed_in>body</point_expressed_in>
+      <force_identifier>handle_force_identifier</force_identifier>
+      <point_identifier>handle_point_identifier</point_identifier>
+      <torque_identifier></torque_identifier>
+    </ExternalForce>
+  </ExternalLoads>
+</OpenSimDocument>
